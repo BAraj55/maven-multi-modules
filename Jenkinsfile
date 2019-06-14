@@ -1,4 +1,4 @@
-node
+node ('master')
 {
 def maven=toolname:'mvn_home',type:'maven'
 stage ('check out the code'){
